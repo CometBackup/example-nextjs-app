@@ -1,6 +1,7 @@
 This is a **Comet Backup** extended version of [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
+- Check out our example usage of the API for registering a user profile in [pages/api/register.js](pages/api/register.js)
+- Check out how to single sign on between the next app and the comet user profile using [pages/index.js](pages/index.js)
 
 ## Getting Started
 
