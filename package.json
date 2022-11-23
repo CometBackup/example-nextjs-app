@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "comet-js-sdk": "^1.0.2",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "next": "13.0.4",

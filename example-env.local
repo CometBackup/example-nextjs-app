@@ -1,0 +1,4 @@
+# rename this file to .env.local and substitute your admin username/password
+COMET_ADMIN_USER=admin
+COMET_ADMIN_PASSWORD=admin
+COMET_URL = http://localhost:8060/

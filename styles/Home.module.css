@@ -1,6 +1,3 @@
-.container {
-  padding: 0 2rem;
-}
 
 .main {
   min-height: 100vh;
@@ -56,74 +53,41 @@
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.signupForm {
+  max-width: 400px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  flex-direction: column;
+}
+.signupForm button {
+  margin-top: 12px;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: forestgreen;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.signupForm button:hover {
+  background-color: darkgreen;
+}
+.signupForm label {
+  margin-bottom: 4px;
+}
+.signupForm input {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 1px solid;
+  border-radius: 12px;
+  font-size: 2.2rem;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
+.errorBox {
+  padding: 8px 12px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  color: wheat;
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+  border-radius: 12px;
 }
